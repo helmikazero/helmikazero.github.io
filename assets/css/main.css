@@ -1,0 +1,313 @@
+.site-experience{
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+.site-banner{
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+
+.image-banner{
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+
+.main-section {
+  min-height: 100vh;
+}
+
+.main-background {
+  background-color: #272c30;
+}
+
+.footer {
+  min-height: 40vh;
+}
+
+.content-fills {
+  max-width: 1024px;
+}
+
+.big-font {
+  font-size: larger;
+}
+
+.before-line::before {
+  content: "";
+  display: inline-block;
+  width: 60px;
+  height: 1px;
+  background-color: white;
+  vertical-align: middle;
+}
+
+.before-line span {
+  padding-left: 10px;
+  position: relative;
+}
+
+.after-line::after,
+.talk-line::after {
+  content: "";
+  display: inline-block;
+  width: 50px;
+  height: 2px;
+  background-color: #ffc107;
+  vertical-align: middle;
+}
+
+.talk-line::after {
+  background-color: white;
+  vertical-align: bottom;
+  width: 100px;
+}
+
+.after-line span,
+.talk-line span {
+  padding-right: 5px;
+}
+
+.vertical-separator {
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 60px;
+  width: 2px;
+  background-color: #ffc107;
+  vertical-align: middle;
+}
+
+.horizontal-separator {
+  margin-left: auto;
+  margin-right: auto;
+  width: 60px;
+  height: 2px;
+  background-color: #ffc107;
+}
+
+.stats-box {
+  width: 200px;
+  height: 200px;
+  margin: 20px;
+  background-color: #272c30;
+  border: 1px solid #272c30;
+  border-radius: 25px;
+}
+
+.carousel-box {
+  height: 450px;
+}
+
+.carousel-img {
+  width: 50%;
+}
+
+@media (min-width: 760px) {
+  .main-section {
+    min-height: 60vh;
+  }
+  .carousel-box {
+    height: 500px;
+  }
+  .carousel-img {
+    width: 25%;
+  }
+
+  .talk-line::after {
+    width: 400px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .main-section {
+    min-height: 70vh;
+  }
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.site-banner h1{
+  font-size: 36px;
+  margin-bottom: 30px;
+}
+
+.site-banner p{
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.timeline{
+  padding-top: 5%;
+  padding-left: 2%;
+  margin-right: 10%;
+}
+
+.timeline ul{
+  list-style: none;
+}
+
+.timeline h1{
+  font-size: 18px;
+} 
+
+.timeline h2{
+  font-size: 14px;
+}
+
+.timeline h3{
+  font-size: 11px;
+  line-height: 20px;
+}
+
+.title{
+  font-size: 36px;
+  padding-top: 10%;
+}
+
+.timeline::before{
+  content: '';
+  position: absolute;
+  height: 71%;
+  width: 2px;
+  background-color: white;
+}
+
+.timeline ul li{
+  transform: translateX(40px);
+  margin-bottom: 70px;
+}
+
+.timeline ul li::after{
+  content: '';
+  position: absolute;
+  height: 15px;
+  width: 15px;
+  background-color: white;
+  border-radius: 50%;
+  top: 2;
+}
+
+.timeline ul li:nth-child(even)::after{
+  transform: translate(-50%, -20%);
+  left: -39px;
+}
+.timeline ul li:nth-child(odd)::after{
+  transform: translate(-50%, -20%);
+  left: -39px;
+}
+
+.timeline ul li:hover::after{
+  background-color: #ffc107;
+}
+
+.timeline ul li:hover{
+  background-color: #1e1f22;
+  padding: 2%;
+  border-radius: 10px;
+}
+
+.job{
+  font-style: italic;
+}
+
+.timeline-org{
+  padding-top: 5%;
+  padding-left: 2%;
+  margin-right: 10%;
+}
+
+.timeline-org ul{
+  list-style: none;
+}
+
+.timeline-org h1{
+  font-size: 18px;
+} 
+
+.timeline-org h2{
+  font-size: 14px;
+}
+
+.timeline-org h3{
+  font-size: 11px;
+  line-height: 20px;
+}
+
+.timeline-org::before{
+  content: '';
+  position: absolute;
+  height: 67%;
+  width: 2px;
+  background-color: white;
+}
+
+.timeline-org ul li{
+  transform: translateX(40px);
+  margin-bottom: 70px;
+}
+
+.timeline-org ul li::after{
+  content: '';
+  position: absolute;
+  height: 15px;
+  width: 15px;
+  background-color: white;
+  border-radius: 50%;
+  top: 2;
+}
+
+.timeline-org ul li:nth-child(even)::after{
+  transform: translate(-50%, -20%);
+  left: -39px;
+}
+.timeline-org ul li:nth-child(odd)::after{
+  transform: translate(-50%, -20%);
+  left: -39px;
+}
+
+.timeline-org ul li:hover::after{
+  background-color: #ffc107;
+}
+
+.timeline-org ul li:hover{
+  background-color: #1e1f22;
+  padding: 2%;
+  border-radius: 10px;
+}
+
+.skills{
+  padding-top: 5%;
+  margin-right: 10%;
+}
+
+.skills H2{
+  font-size: 14px;
+  margin-bottom: 14px;
+}
+
+.progress{
+  margin-bottom: 40px;
+}
+
+.service{
+  margin-top: 20%;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+.projectssec{
+  margin-top: 20%;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+.iconover{
+  position: absolute;
+  top: 8px;
+  left: 16px;
+}
